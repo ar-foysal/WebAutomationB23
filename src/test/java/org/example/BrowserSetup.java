@@ -32,7 +32,7 @@ public class BrowserSetup {
        return getElement(locator).isDisplayed();
     }
 
-    public void clickOnElemt(By locator){
+    public void clickOnElement(By locator){
         getElement(locator).click();
     }
 }
